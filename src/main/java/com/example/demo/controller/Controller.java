@@ -13,7 +13,7 @@ public class Controller {
 
     @GetMapping("/hello")
     public static ResponseEntity<String> work(@RequestParam String s) throws Exception{
-        if(!s.equals("200")) throw new Exception("hihi");
+        if(!s.equals("202")) throw new Exception("hihi");
         return new ResponseEntity<>(s, HttpStatus.OK);
     }
 }

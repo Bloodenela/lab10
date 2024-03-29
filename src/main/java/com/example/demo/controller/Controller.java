@@ -12,6 +12,6 @@ public class Controller {
 
     @GetMapping("/hello")
     public ResponseEntity<String> work(){
-        return new ResponseEntity<>("2002", HttpStatus.OK);
+        return new ResponseEntity<>("200", HttpStatus.OK);
     }
 }

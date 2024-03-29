@@ -9,5 +9,6 @@ class ControllerTest {
     void work() {
         String ch = "700";
         assertThrows(Exception.class, () -> Controller.work(ch));
+
     }
 }

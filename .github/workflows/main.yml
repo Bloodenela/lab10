@@ -18,5 +18,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
+      run: mvn verify
      #-Dtest=<Имя класса где тесты лежат>
+    - name: Test
       run: mvn -Dtest=ControllerTest
